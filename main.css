@@ -1,0 +1,87 @@
+
+
+ul li{
+    display: inline-block;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+li{
+
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+}
+
+body{
+    font-family: 'Lora', serif;
+    border: 5px solid lightgreen;
+    background: lightgrey;
+    color: white;
+}
+
+body h1, ul{
+    display: flex;
+    justify-content: center;
+}
+
+a{
+    color: white;
+}
+
+.imgMain{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+.dog1{
+    display: block;
+    margin-right: auto;
+}
+
+.dog2{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.dog3{
+    display: block;
+    margin-left: auto;
+}
+
+#About p{
+    width: 50%;
+}
+
+#About h2{
+    padding-left: 800px;
+}
+
+#Portfolio p{
+    width: 50%;
+}
+#Portfolio h2{
+    padding-left: 600px;
+}
+
+#Pics{
+    display: flex;
+    padding: 200px;
+}
+
+#Dog{
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+}
