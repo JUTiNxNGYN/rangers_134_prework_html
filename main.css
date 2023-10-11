@@ -23,7 +23,7 @@ body{
     background: lightgrey;
     color: white;
 }
-
+/* Combinator Selector */
 body h1, ul{
     display: flex;
     justify-content: center;
@@ -32,14 +32,25 @@ body h1, ul{
 a{
     color: white;
 }
-
+/* Pseudo Class */
+a:hover{
+    color: red;
+}
+/* Attribute */
+a[href="youtube.com"]:hover {
+    background-color: yellow;
+  }
+/* Simple Selector */
 .imgMain{
     display: block;
     margin-left: auto;
     margin-right: auto;
     border-radius: 50%;
 }
-
+/* Pseudo Elements */
+h2::first-line{
+    color: lightgreen;
+}
 .dog1{
     display: block;
     margin-right: auto;
